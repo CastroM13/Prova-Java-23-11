@@ -1,4 +1,4 @@
-
+# TODO ESSE ARQUIVO REPRESENTA QUAIS ARQUIVOS SERÃO IGNORADOS PELO GIT
 .gradle
 **/build/
 !src/**/build/

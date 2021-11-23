@@ -1,4 +1,7 @@
+# Indica a criação da imagem do banco no gitpod.
 image: gitpod/workspace-mysql
 
+# Indica as tarefas que ficam disponíveis para execução em determinados contextos:
 tasks:
+  # Comando que quando iniciado, deverá criar a database pro site.
   - init: mysql -u root -e "CREATE DATABASE applicationdb"

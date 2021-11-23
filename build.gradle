@@ -1,17 +1,29 @@
+// Essa linha inicializa o objeto gradle que contém os plugins utilizados no projeto.
 plugins {
+    // Indica o uso da versão de lançamento 2.3.0 do org.springframework.boot
     id 'org.springframework.boot' version '2.3.0.RELEASE'
+    // Indica o uso da versão de lançamento 1.0.9 do io.spring.dependency-management
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    // Indica o uso do java
     id 'java'
 }
 
+// Essa linha inicializa o objeto de repositório do gradle.
 repositories {
+    // Indica o uso do Jcenter como repositório.
     jcenter()
 }
 
+// Essa linha inicializa o objeto de dependencias do projeto.
 dependencies {
+    // Indica o uso da dependência org.springframework.boot:spring-boot-starter-web (Inicializador Web)
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    // Indica o uso da dependência org.springframework.boot:spring-boot-starter-data-jpa (Tipagem de dados)
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // Indica o uso da dependência mysql:mysql-connector-java (Conector para a base mysql no java)
     implementation 'mysql:mysql-connector-java'
+    // Indica o uso da dependência javax.servlet:jstl:1.2 (Servlet "Servidorzinho")
     implementation 'javax.servlet:jstl:1.2'
+    // Indica o uso da dependência org.apache.tomcat.embed:tomcat-embed-jasper (Tomcat Jasper)
     implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 }

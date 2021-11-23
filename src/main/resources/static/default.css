@@ -1,4 +1,7 @@
+/* Define os estilos do corpo (body) */
 body {
+    /* Define a fonte do corpo como sem serifa */
     font-family: sans-serif;
+    /* Define a cor da fonte do corpo como Azul ardósia escuro */
     color: darkslateblue;
 }
